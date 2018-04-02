@@ -9,6 +9,7 @@
 import UIKit
 
 class TimerViewController: UIViewController {
+    let queue = DispatchQueue(label: "com.example.queue")
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,6 +51,29 @@ class TimerViewController: UIViewController {
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) { [weak self] in
             self?.dummy()
             print("DispatchQueue.main.asyncAfter [weak self]  end")
+        }
+    }
+
+    func test4() {
+        print("queue.asyncAfter start")
+        queue.asyncAfter(deadline: .now() + 1) {
+            print("queue.asyncAfter end")
+        }
+    }
+    
+    func test5() {
+        print("queue.asyncAfter [self] start")
+        queue.asyncAfter(deadline: .now() + 1) {
+            self.dummy()
+            print("queue.asyncAfter [self] end")
+        }
+    }
+    
+    func test6() {
+        print("queue.asyncAfter [weak self] start")
+        queue.asyncAfter(deadline: .now() + 1) { [weak self] in
+            self?.dummy()
+            print("queue.asyncAfter [weak self]  end")
         }
     }
 }
