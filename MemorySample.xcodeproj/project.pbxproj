@@ -14,6 +14,7 @@
 		C4C27C752073D62B00B52001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C27C732073D62B00B52001 /* LaunchScreen.storyboard */; };
 		C4C27C7D2073D62C00B52001 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C27C7C2073D62C00B52001 /* TimerViewController.swift */; };
 		C4C27C7F2076469F00B52001 /* TypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C27C7E2076469F00B52001 /* TypeViewController.swift */; };
+		C4D66704207914A00040D285 /* ReferenceCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D66703207914A00040D285 /* ReferenceCycle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C4C27C762073D62C00B52001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4C27C7C2073D62C00B52001 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		C4C27C7E2076469F00B52001 /* TypeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeViewController.swift; sourceTree = "<group>"; };
+		C4D66703207914A00040D285 /* ReferenceCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceCycle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				C4C27C6C2073D62B00B52001 /* ViewController.swift */,
 				C4C27C7C2073D62C00B52001 /* TimerViewController.swift */,
 				C4C27C7E2076469F00B52001 /* TypeViewController.swift */,
+				C4D66703207914A00040D285 /* ReferenceCycle.swift */,
 				C4C27C6E2073D62B00B52001 /* Main.storyboard */,
 				C4C27C712073D62B00B52001 /* Assets.xcassets */,
 				C4C27C732073D62B00B52001 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 			files = (
 				C4C27C7F2076469F00B52001 /* TypeViewController.swift in Sources */,
 				C4C27C6D2073D62B00B52001 /* ViewController.swift in Sources */,
+				C4D66704207914A00040D285 /* ReferenceCycle.swift in Sources */,
 				C4C27C7D2073D62C00B52001 /* TimerViewController.swift in Sources */,
 				C4C27C6B2073D62B00B52001 /* AppDelegate.swift in Sources */,
 			);
