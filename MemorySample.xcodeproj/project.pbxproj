@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C41D08CC207BB8A100E5017D /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41D08CB207BB8A100E5017D /* TestViewController.swift */; };
 		C4C27C6B2073D62B00B52001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C27C6A2073D62B00B52001 /* AppDelegate.swift */; };
 		C4C27C6D2073D62B00B52001 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C27C6C2073D62B00B52001 /* ViewController.swift */; };
 		C4C27C702073D62B00B52001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4C27C6E2073D62B00B52001 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C41D08CB207BB8A100E5017D /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		C4C27C672073D62B00B52001 /* MemorySample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemorySample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4C27C6A2073D62B00B52001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4C27C6C2073D62B00B52001 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 				C4C27C6C2073D62B00B52001 /* ViewController.swift */,
 				C4C27C7C2073D62C00B52001 /* TimerViewController.swift */,
 				C4C27C7E2076469F00B52001 /* TypeViewController.swift */,
+				C41D08CB207BB8A100E5017D /* TestViewController.swift */,
 				C4D66703207914A00040D285 /* ReferenceCycle.swift */,
 				C4C27C6E2073D62B00B52001 /* Main.storyboard */,
 				C4C27C712073D62B00B52001 /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 				C4C27C6D2073D62B00B52001 /* ViewController.swift in Sources */,
 				C4D66704207914A00040D285 /* ReferenceCycle.swift in Sources */,
 				C4C27C7D2073D62C00B52001 /* TimerViewController.swift in Sources */,
+				C41D08CC207BB8A100E5017D /* TestViewController.swift in Sources */,
 				C4C27C6B2073D62B00B52001 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
